@@ -40,7 +40,7 @@ xhr.onreadystatechange=()=>
             z.innerHTML=`Country Name: ${m[i].name.common}`; 
             z.style.padding="4px";
             var b1=document.createElement("p");
-            b1.innerHTML=`Flag: <img src="${m[i].flags.png}"style='width:30rem;height:20rem'/>`;  
+            b1.innerHTML=`<img src="${m[i].flags.png}"style='width:30rem;height:20rem'/>`;  
            b1.style.padding="8px";
             var b2=document.createElement("p");
             b2.innerHTML=`Capital: ${m[i].capital}`; 
