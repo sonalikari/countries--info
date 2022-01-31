@@ -1,4 +1,4 @@
-<h1 align = 'center'> countries-info </h1>
+<h1 align = 'center'> countries--info </h1>
 
 ![](https://img.shields.io/badge/Made_with-javascript-20232A?style=for-the-badge&logo=javascript&logoColor=61DAFB)
 ![](https://img.shields.io/badge/Deployed_on-Heroku-00C7B7?style=for-the-badge&logo=heroku&logoColor=white)
