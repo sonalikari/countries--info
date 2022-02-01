@@ -34,7 +34,7 @@ xhr.onreadystatechange=()=>
         for(var i=0;i<m.length;i++)
         {
             var temp=document.createElement("div");
-               temp.style.width="90%";
+               temp.style.width="95%";
             temp.setAttribute('id','add');
             var z=document.createElement("p");
             z.innerHTML=`Country Name: ${m[i].name.common}`; 
