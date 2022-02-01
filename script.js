@@ -66,9 +66,11 @@ xhr.onreadystatechange=()=>
             var b9=document.createElement("p");
             b9.innerHTML=`Area: ${m[i].area}`;  
            b9.style.padding="4px";
-           var b10=document.createElement("p");
+         /*  
+         var b10=document.createElement("p");
             b10.innerHTML=`Currency: ${m[i].currencies.INR.name}`;  
            b10.style.padding="4px";
+           */
            var b11=document.createElement("p");
             b11.innerHTML=`Timezones: ${m[i].timezones}`;  
            b11.style.padding="4px";
@@ -88,7 +90,7 @@ xhr.onreadystatechange=()=>
             temp.appendChild(b7);
             temp.appendChild(b8); 
             temp.appendChild(b9);
-            temp.appendChild(b10);
+         //   temp.appendChild(b10);
             temp.appendChild(b11);
             temp.appendChild(b12);
             temp.appendChild(b13);
