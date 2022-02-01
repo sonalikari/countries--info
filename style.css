@@ -157,6 +157,7 @@ h1{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.2);
     margin-bottom: .5rem;
     font-size: 1.7rem;
+    overflow: scroll;
   }
 
 /* footer style */
